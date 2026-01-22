@@ -5,6 +5,9 @@ import Hero from './components/Hero/Hero';
 
 import Projects from './components/Projects/Projects';
 
+import About from './components/About/About';
+import Experience from './components/Experience/Experience';
+
 const App = () => {
   return (
     <Router>
@@ -12,8 +15,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<div className="container"><h1>About</h1><p>Coming Soon...</p></div>} />
-          <Route path="/experience" element={<div className="container"><h1>Experience</h1><p>Coming Soon...</p></div>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
       </Layout>
     </Router>
