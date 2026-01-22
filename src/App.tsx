@@ -1,26 +1,24 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout/Layout';
-// Placeholder pages (will implement properly later)
-import Hero from './components/Hero/Hero';
+import React from 'react';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
+import { Projects } from './components/Projects';
+import { Experience } from './components/Experience';
+import { TechStack } from './components/TechStack';
+import { Contact } from './components/Contact';
+import { NeuralBackground } from './components/NeuralBackground';
 
-import Projects from './components/Projects/Projects';
-
-import About from './components/About/About';
-import Experience from './components/Experience/Experience';
-
-const App = () => {
+export default function App() {
   return (
-    <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<Experience />} />
-        </Routes>
-      </Layout>
-    </Router>
+    <div className="dark min-h-screen bg-background text-foreground relative overflow-x-hidden">
+      <NeuralBackground />
+      <div className="relative z-10">
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <TechStack />
+        <Contact />
+      </div>
+    </div>
   );
-};
-
-export default App;
+}
