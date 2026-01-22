@@ -5,27 +5,29 @@ import './Experience.css';
 const experiences = [
     {
         id: 1,
-        role: 'Senior Machine Learning Engineer',
-        company: 'TechCorp AI',
-        date: '2023 - Present',
-        description: 'Leading the development of Large Language Model agents for customer support automation. Optimized inference latency by 40% using quantization techniques.',
-        tech: ['Python', 'PyTorch', 'AWS', 'Docker']
+        role: 'Artificial Intelligence Intern',
+        company: 'CodeClause',
+        date: 'May 2024 - June 2024',
+        description: 'Developed and deployed a emotion detection model reaching 85% accuracy. Built a golden task application using Tkinter for real-time gender and age detection.',
+        tech: ['Python', 'Tkinter', 'OpenCV', 'Deep Learning']
     },
     {
         id: 2,
-        role: 'Machine Learning Engineer',
-        company: 'DataFlow Systems',
-        date: '2021 - 2023',
-        description: 'Built computer vision pipelines for manufacturing defect detection. Deployed models to edge devices achieving 99.5% accuracy.',
-        tech: ['TensorFlow', 'OpenCV', 'Kubernetes', 'FastAPI']
-    },
+        role: 'Machine Learning Intern',
+        company: 'Bharat Intern',
+        date: 'April 2024 - May 2024',
+        description: 'Developed a house price prediction model using linear regression and decision trees. Created an Iris flower classification system with 96% accuracy.',
+        tech: ['Scikit-learn', 'Pandas', 'Matplotlib']
+    }
+];
+
+const education = [
     {
-        id: 3,
-        role: 'Data Scientist',
-        company: 'Innovate Fintech',
-        date: '2019 - 2021',
-        description: 'Developed fraud detection algorithms processing millions of transactions daily. Collaborated with cross-functional teams to integrate models into production.',
-        tech: ['Scikit-learn', 'Pandas', 'Spark', 'SQL']
+        id: 1,
+        degree: 'B.Tech in Artificial Intelligence',
+        school: 'SRM Institute of Science and Technology',
+        year: '2022 - Present',
+        description: 'Specializing in Artifical Intelligence and Machine Learning. CGPA: 9.4/10.'
     }
 ];
 

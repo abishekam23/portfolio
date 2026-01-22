@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 // import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import './Hero.css';
 
@@ -24,8 +25,8 @@ const Hero = () => {
                     </p>
 
                     <div className="hero-actions">
-                        <button className="btn btn-primary">View Projects</button>
-                        <button className="btn btn-outline">Contact Me</button>
+                        <Link to="/projects" className="btn btn-primary">View Projects</Link>
+                        <Link to="/experience" className="btn btn-outline">My Journey</Link>
                     </div>
                 </motion.div>
             </div>
