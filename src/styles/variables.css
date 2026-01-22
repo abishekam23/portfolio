@@ -1,0 +1,44 @@
+:root {
+  /* Colors */
+  --bg-dark: #030712; /* Very dark blue/black */
+  --bg-card: #0f121a; /* Slightly lighter */
+  --bg-card-hover: #1a1f2e;
+  
+  --primary: #4f46e5; /* Indigo */
+  --primary-glow: rgba(79, 70, 229, 0.4);
+  --secondary: #ec4899; /* Pink */
+  --accent: #06b6d4; /* Cyan */
+  --success: #10b981;
+  
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  
+  /* Gradients */
+  --gradient-main: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  --gradient-dark: linear-gradient(to bottom, var(--bg-dark), var(--bg-card));
+  
+  /* Typography */
+  --font-mono: 'JetBrains Mono', monospace; /* Good for code/ML */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+  
+  /* Borders */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 9999px;
+  
+  --border-light: rgba(255, 255, 255, 0.08);
+  --border-glow: rgba(79, 70, 229, 0.3);
+  
+  /* Z-Index */
+  --z-nav: 50;
+  --z-overlay: 100;
+}
